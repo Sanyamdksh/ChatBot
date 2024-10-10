@@ -4,7 +4,7 @@ const chatBox = document.querySelector(".chatbox");
 const toggler = document.querySelector(".toggler");
 
 let userInput;
-const apiKey = "AIzaSyDcr-0Fx59KZPcg8l9toERZ8gqc6vLuj4A";
+const apiKey = "AIzaSyASphX5wS-9MqyLUtK-W3KSV338u9QUyTI";
 
 const createMessage = (message, className) => {
   const outMessage = document.createElement("out");
@@ -42,6 +42,7 @@ const generateResponse = (incomingBot) => {
       //   console.log(data);
     })
     .catch((error) => {
+      botMessage.classList.add("Error");
       botMessage.textContent = "Oops! Something went wrong.Please try again";
     })
     .finally(() => chatBox.scrollTo(0, chatBox.scrollHeight));

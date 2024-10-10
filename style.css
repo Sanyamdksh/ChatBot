@@ -97,6 +97,10 @@ body {
   background: rgb(181, 121, 255);
   border-radius: 0 12px 0 12px;
 }
+.chatbox .chat p.Error {
+  color: rgb(103, 36, 36);
+  background: rgb(199, 116, 116);
+}
 .chatbox .incoming p {
   background: rgb(203, 203, 203);
   color: black;

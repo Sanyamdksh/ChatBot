@@ -4,7 +4,7 @@ const chatBox = document.querySelector(".chatbox");
 const toggler = document.querySelector(".toggler");
 
 let userInput;
-const apiKey = "AIzaSyASphX5wS-9MqyLUtK-W3KSV338u9QUyTI";
+const apiKey = "";
 
 const createMessage = (message, className) => {
   const outMessage = document.createElement("out");

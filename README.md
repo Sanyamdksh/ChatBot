@@ -16,6 +16,3 @@ This is an AI-powered chatbot built with HTML,CSS, and JavaScript, using the Goo
 
 
 
-<h3>DEMO</h3>
-
-**You can chek it out at** [Demo link](https://sanyamdksh.github.io/ChatBot/)
